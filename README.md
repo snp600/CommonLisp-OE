@@ -1,3 +1,3 @@
 #### OpenEdu FPBC
 
-+ [Overview](https://github.com/ostatkivoli/CommonLisp_OE/wiki/Overview)
++ [Overview](https://github.com/snp600/CommonLisp-OE/wiki/Overview)
