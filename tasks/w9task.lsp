@@ -12,7 +12,7 @@
 
 (set-dispatch-macro-character #\# #\[
 	#'(lambda (stream c1 c2)
-		(declare (ingore c1 c2))
+		(declare (ignore c1 c2))
 		(let ((lst (read-delimited-list #\] stream t)))
 			`(quote
 				,(if (and (> (first lst) -1) (> (second lst) -1))
